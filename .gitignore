@@ -60,3 +60,8 @@ novel_os*.db
 
 # --- Uploaded media blobs (user data, not source) ---
 /media/
+
+# The Enemy's Shadow — build output and font binaries
+books/the-enemys-shadow/output/*
+!books/the-enemys-shadow/output/the-enemys-shadow.pdf
+books/the-enemys-shadow/assets/fonts/*.ttf
